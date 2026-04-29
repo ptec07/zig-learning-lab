@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/lessons", "destination": "/" },
+    { "source": "/lessons/(.*)", "destination": "/" },
+    { "source": "/dashboard", "destination": "/" },
+    { "source": "/exam", "destination": "/" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
